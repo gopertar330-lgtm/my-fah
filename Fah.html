@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fah</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome สำหรับไอคอน -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif, system-ui;
+            scroll-behavior: smooth;
+            padding-top: 56px; /* ป้องกัน Navbar ทับเนื้อหา */
+        }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+        }
+        .section-padding {
+            padding: 60px 0;
+        }
+        /* Custom styling สำหรับภาพแทน @ */
+        .at-sign {
+            width: 14px;
+            height: 14px;
+            vertical-align: middle;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Responsive แบบ Toggle & Anchor Link -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">My Resume</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">เกี่ยวกับตัวฉัน</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">การศึกษา</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">ทักษะ (Skills)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">การติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Profile Section -->
+    <header class="bg-light text-center py-5 border-bottom">
+        <div class="container">
+            <!-- รูป Display แบบวงกลม (rounded-circle) -->
+            <img src="Fah Alpha.jpg" alt="Profile Picture" class="rounded-circle profile-img mb-3 border border-4 border-white shadow">
+            
+            <!-- ชื่อ-นามสกุลแบบ h1 -->
+            <h1 class="fw-bold display-5">[Nopparat Srisuk]</h1>
+            
+            <!-- สาขาวิชาเป็นตัวเอียง (em) -->
+            <p class="fs-5 text-secondary">สาขาวิชา <em>เทคโนโลยีดิจิทัลและสารสนเทศ[DIT]</em></p>
+            
+            <!-- ชื่อคณะ และ ชื่อสถาบันฯ พร้อมลิงก์ -->
+            <p class="fs-6">
+                คณะ วิศวกรรมศาสตร์และเทคโนโลยี [ET] | 
+                <a href="http://pim.ac.th" target="_blank" rel="noopener noreferrer" class="text-decoration-none fw-bold text-success">
+                    สถาบันการจัดการปัญญาภิวัฒน์
+                </a>
+            </p>
+            
+            <!-- ประวัติโดยย่อ -->
+            <p class="lead col-md-8 mx-auto text-muted">
+                ชื่อ นพ"Nop" โค้ดเนม ฟ่า"Fah"นะครับ เรียนอยู่PIM สาขาDIT มัทักษะการปัั้นโมเดล 3D Rig Animation และอยู่ในช่วงพัฒนา
+            </p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+
+        <!-- Section: เกี่ยวกับตัวฉัน (About Me) -->
+        <section id="about" class="section-padding">
+            <h2 class="border-bottom pb-2 mb-4 text-primary"><i class="fa-solid fa-user me-2"></i>เกี่ยวกับตัวฉัน (About Me)</h2>
+            <p>
+                นพรัตน์ ศรีสุข (Nopparat Srisuk) ชื่อเล่น นพ และโค้ดเนม "ฟ่า" (Fah) เป็นนักศึกษาของPIM คณะET สาขาDIT มีความชื่นชอบการปั้นโมเดล 3D จิบิ Rig And Animation 
+            </p>
+        </section>
+
+        <!-- เส้นแบ่งย่อหน้า (hr) -->
+        <hr class="my-4">
+        <li class="nav-item">
+    <!-- ใส่ href="portfolio.html" เพื่อเปิดหน้าผลงาน -->
+   
+        <!-- Section: การศึกษา (Education) -->
+        <section id="education" class="section-padding">
+            <h2 class="border-bottom pb-2 mb-4 text-primary"><i class="fa-solid fa-graduation-cap me-2"></i>การศึกษา (Education)</h2>
+            <div class="card border-0 shadow-sm mb-3">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">ปริญญาตรี - สาขาวิชา เทคโนโลยีดิจิทัลและสารสนเทศ[DIT]</h5>
+                    <p class="card-text mb-1">คณะ วิศวกรรมศาสตร์และเทคโนโลยี [ET], สถาบันการจัดการปัญญาภิวัฒน์</p>
+                    <small class="text-muted">ปีการศึกษา 256 - ปัจจุบัน</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- เส้นแบ่งย่อหน้า (hr) -->
+        <hr class="my-4">
+
+        <!-- Section: Skills (Responsive grid: Desktop 4 แถว/คอลัมน์, Tablet 2, Mobile 1) -->
+        <section id="skills" class="section-padding">
+            <h2 class="border-bottom pb-2 mb-4 text-primary"><i class="fa-solid fa-code me-2"></i>ทักษะ (Skills)</h2>
+            
+            <div class="row g-4">
+                <!-- col-12 (มือถือ 1 คอลัมน์), col-md-6 (แท็บเล็ต 2 คอลัมน์), col-lg-3 (เดสก์ท็อป 4 คอลัมน์) -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3">
+                        <img src="Blender.jpg" alt="Blender Logo" class="img-fluid mb-3 mx-auto" style="height: 60px; object-fit: contain;">
+                        <h5 class="card-title">Blender</h5>
+                        <p class="card-text text-muted small">การสร้างโมเดล 3D และ Animation</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3">
+                        <i class="fa-solid fa-people-group fa-3x text-warning mb-3"></i>
+                        <h5 class="card-title">Soft Skills</h5>
+                        <p class="card-text text-muted small">การสื่อสาร การทำงานเป็นทีม และการแก้ปัญหา</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <section id="portfolio-preview" class="section-padding bg-light text-center py-5">
+    <div class="container">
+        <h2>ผลงาน</h2>
+        <p class="text-muted">ตัวอย่างผลงานและโปรเจกต์ที่เคยทำระหว่างศึกษา</p>
+        <a href="portfolio.html" class="btn btn-primary btn-lg mt-3">
+            <i class="fa-solid fa-arrow-right me-2"></i>เข้าชมหน้าผลงาน
+        </a>
+    </div>
+</section>
+
+        <!-- เส้นแบ่งย่อหน้า (hr) -->
+        <hr class="my-4">
+
+        <!-- Section: ช่องทางติดต่อ (Contact) -->
+        <section id="contact" class="section-padding">
+            <h2 class="border-bottom pb-2 mb-4 text-primary"><i class="fa-solid fa-address-book me-2"></i>ช่องทางติดต่อ</h2>
+            
+            <!-- ใช้ Ordered List (ol) ตามข้อกำหนด -->
+            <ol class="list-group list-group-numbered shadow-sm">
+                <li class="list-group-item d-flex align-items-center">
+                    <span class="ms-2">
+                        <strong>อีเมลสถาบันฯ:</strong> 
+                        student6XXXXXX
+                        <!-- ใช้รูปภาพตัวอักษร @ แทน Text เพื่อป้องกัน Spam Bot -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/archive/f/f3/20180424162002%21At_sign.svg" alt="@" class="at-sign"> 
+                        pim.ac.th
+                    </span>
+                </li>
+                <li class="list-group-item">
+                    <strong>เบอร์โทรศัพท์:</strong> 012-345-5678 
+                </li>
+                <li class="list-group-item">
+                    <strong>ที่อยู่:</strong> อำเภอปากเกร็ด จังหวัดนนทบุรี 11120 (ข้อมูลสมมติ)
+                </li>
+                <li class="list-group-item">
+                    <strong>GitHub:</strong> <a href="https://github.com/[user-นักศึกษา]" target="_blank">github.com/[user-นักศึกษา]</a>
+                </li>
+            </ol>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <small>&copy; 2569 [ชื่อ-นามสกุล] - Panyapiwat Institute of Management</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
