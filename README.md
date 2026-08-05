@@ -1,4 +1,5 @@
 [fah.html](https://github.com/user-attachments/files/30743592/fah.html)
+[fah.html](https://github.com/user-attachments/files/30744153/fah.html)
 <!DOCTYPE html>
 <html lang="th">
 <head>
@@ -56,7 +57,7 @@
     <header class="bg-light text-center py-5 border-bottom">
         <div class="container">
             <!-- รูป Display แบบวงกลม (rounded-circle) -->
-            <img src="Fah Alpha.jpg" alt="Profile Picture" class="rounded-circle profile-img mb-3 border border-4 border-white shadow">
+            <img src="fah alpha.jpg" alt="Profile Picture" class="rounded-circle profile-img mb-3 border border-4 border-white shadow">
             
             <!-- ชื่อ-นามสกุลแบบ h1 -->
             <h1 class="fw-bold display-5">[Nopparat Srisuk]</h1>
