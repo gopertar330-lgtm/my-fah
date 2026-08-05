@@ -1,6 +1,3 @@
-[fah.html](https://github.com/user-attachments/files/30743592/fah.html)
-[fah.html](https://github.com/user-attachments/files/30744153/fah.html)
-<!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
